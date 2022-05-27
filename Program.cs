@@ -44,7 +44,6 @@ namespace GettingStarted
 
                     });
 
-                    services.AddMassTransitHostedService(true);
                     services.AddHostedService<Worker>();
                 });
     }

@@ -1,5 +1,4 @@
-﻿using GreenPipes;
-using MassTransit;
+﻿using MassTransit;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;

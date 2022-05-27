@@ -13,5 +13,7 @@ The latest commit is using MT 8.0.2 and the filter is not working (The Fault is 
 The commits are tagged with 'working' and 'not-working' to easily switch between the two states.
 The project is quite small and all is done in memory.
 
+Apart from the information logged, there is a Fault consumer to help understand the two cases (when the filter works, the Fault consumer doesn't run, when the filter doesn't work the Fault consumer runs).
+
 ## Why?
 This is a demo of the error. On my project I don't want to just silently fail, I want the filter to do a couple of things before re-throwing the error, and potentially swallow it silently on some special cases.
